@@ -4,7 +4,7 @@
 
 Bright Path isn't just another task manager. It's a personal learning platform born from a real-life problem: how can a busy parent (or older sibling!) guide a child's education in an age of digital distractions? This project was built to turn passive screen time into active, confidence-boosting skill-building.
 
-
+thsi is the youtub demo : https://youtu.be/_nvFy1KwZZc?si=RA73AVpLTvQp951L
 
 ---
 
@@ -68,9 +68,22 @@ This project has two main components: the **Bright Path web application** and th
 2.  Add your credentials for Supabase and Google Gemini. It should look like this:
 
     ```env
-    NEXT_PUBLIC_SUPABASE_URL=YOUR_SUPABASE_URL
-    NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
-    GEMINI_API_KEY=YOUR_GOOGLE_GEMINI_API_KEY
+    # .env.local.example
+
+# Gemini API Configuration
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# Next.js Configuration
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_nextauth_secret_here
+
+# Application Configuration
+NODE_ENV=development
+
+# Supabase Configuration
+NEXT_PUBLIC_SUPABASE_URL=https://your-project-id.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+
     ```
 
 ### Step 4: Run the Application
