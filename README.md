@@ -7,6 +7,8 @@ Bright Path isn't just another task manager. It's a personal learning platform b
 thsi is the youtub demo : https://youtu.be/_nvFy1KwZZc?si=RA73AVpLTvQp951L
 
 ---
+<img width="595" height="389" alt="لقطة شاشة 2025-04-02 211114" src="https://github.com/user-attachments/assets/3f977cae-b9e5-4c63-a794-b15a3e9381ae" />
+
 
 ## The Story Behind Bright Path
 
